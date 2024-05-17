@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.checkBox {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  border-radius: 5px;
+}
+
+body {
+  background-color: rgb(91, 91, 91);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+#root > :nth-child(1) > div {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+}
+#root > :nth-child(1) > div > :nth-child(1) {
+  display: inline-block;
+  padding-left: 1vw;
+}
+#root > :nth-child(1) > div > :nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#root > :nth-child(1) > div > :nth-child(2) > input {
+  width: 50vw;
+  height: 5vh;
+  margin: 10px;
+  border-radius: 5px;
+  border-style: hidden;
+}/*# sourceMappingURL=main.css.map */
